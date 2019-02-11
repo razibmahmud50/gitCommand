@@ -3,10 +3,6 @@ Git Commands
 
 _A list of my commonly used Git commands_
 
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
-
---
-
 ### Getting & Creating Projects
 
 | Command | Description |
@@ -69,5 +65,5 @@ _A list of my commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git pull --rebase=preserve --allow-unrelated-histories` | Pull from origin allow unrelatedhistories |
-| `git log --summary` | View changes (detailed) |
+| `git remote prune origin --summary` | update local branch from origin |
 | `git diff [source branch] [target branch}` | Preview changes before merging |
