@@ -9,7 +9,7 @@ _A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git config --global user.name "[Username]"` | Git global setup |
 | `git config --global user.email "[User Email]"` | Git global setup |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| `git clone [Repository URL].git` | Create a local copy of a remote repository |
 | `git init` | Initialize a local Git repository for existing project |
 | `git remote add origin [Project URL]` | Initialize a local Git repository (also run command for add, commit, push) |
 
@@ -45,7 +45,6 @@ _A list of my commonly used Git commands_
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git remote prune origin --summary` | update local branch from origin |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 | `git diff [source branch] [target branch}` | Preview changes before merging |
 
