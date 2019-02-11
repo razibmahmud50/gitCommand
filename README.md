@@ -15,20 +15,25 @@ _A list of my commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git status` | Check status |
-| `git add [file-name.txt]` | Add a file to the staging area |
-| `git add -A` | Add all new and changed files to the staging area |
-| `git commit -m "[commit message]"` | Commit changes |
-| `git rm -r [file-name.txt]` | Remove a file (or folder) |
-| `git branch` | List branches (the asterisk denotes the current branch) |
+| `git log` | View changes |
+| `git branch` | List branches |
 | `git branch -a` | List all branches (local and remote) |
+| `git add [file-name.txt]` | Add a file to the staging area |
+| `git add .` | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes |
 | `git branch [branch name]` | Create a new branch |
 | `git branch -d [branch name]` | Delete a branch |
 | `git push origin --delete [branchName]` | Delete a remote branch |
-| `git checkout -b [branch name]` | Create a new branch and switch to it |
-| `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git checkout [branch name]` | Switch to a branch |
+| `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout -` | Switch to the branch last checked out |
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
+
+### Important Git Command
+
+| Command | Description |
+| ------- | ----------- |
+| `git merge --abort` | Discard merge conflict |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
@@ -41,8 +46,6 @@ _A list of my commonly used Git commands_
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
-| `git log` | View changes |
-| `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch}` | Preview changes before merging |
 
 ### Special Command
