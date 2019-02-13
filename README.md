@@ -28,6 +28,7 @@ _A list of my commonly used Git commands_
 | `git add .` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git pull` | Update local repository to the newest commit |
+| `git pull --depth 1` | Update local repository to the newest commit for large project |
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git pull --rebase=preserve --allow-unrelated-histories` | Pull from origin allow unrelatedhistories |
 | `git push` | Push changes to remote repository (remembered branch) |
@@ -44,9 +45,7 @@ _A list of my commonly used Git commands_
 | `git merge --abort` | Discard merge conflict |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
-| `git remote prune origin --summary` | update local branch from origin |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
-| `git diff [source branch] [target branch}` | Preview changes before merging |
+| `git remote prune origin ` | update local branch from remote |
 | `git config --get remote.origin.fetch And git config --unset-all remote.origin.fetch And git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/*` | Git config for fetch remote branch  |
 
 
