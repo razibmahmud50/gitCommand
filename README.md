@@ -3,7 +3,7 @@ Git Commands
 
 _A list of my commonly used Git commands_
 
-### Creating Git Projects
+### Initialize Git Projects
 
 | Command | Description |
 | ------- | ----------- |
