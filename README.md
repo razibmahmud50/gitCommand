@@ -47,8 +47,8 @@ _A list of my commonly used Git commands_
 | `git remote prune origin --summary` | update local branch from origin |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 | `git diff [source branch] [target branch}` | Preview changes before merging |
-| `git config --get remote.origin.fetch
-   git config --unset-all remote.origin.fetch
-   git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/*` | Git config for fetch remote branch  |
+| `git config --get remote.origin.fetch | Git config for fetch remote branch  |
+  git config --unset-all remote.origin.fetch
+  git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/*` 
 
 
