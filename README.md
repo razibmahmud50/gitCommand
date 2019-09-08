@@ -12,6 +12,9 @@ _A list of my commonly used Git commands_
 | `git clone [Repository URL].git` | Create a local copy of a remote repository |
 | `git init` | Initialize a local Git repository for existing project |
 | `git remote add origin [Project URL]` | Initialize a local Git repository (also run command for add, commit, push) |
+| `git push -f origin master` | Force push for first push |
+
+git push -f origin master
 
 ### Basic Git Command
 
