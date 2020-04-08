@@ -25,7 +25,7 @@ git push -f origin master
 | `git branch` | List branches |
 | `git branch -a` | List all branches (local and remote) |
 | `git branch [branch name]` | Create a new branch |
-| `git branch -d [branch name]` | Delete a branch |
+| `git branch -D [branch name]` | Delete a branch |
 | `git push origin --delete [branchName]` | Delete a remote branch |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add .` | Add all new and changed files to the staging area |
