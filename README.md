@@ -50,6 +50,7 @@ git push -f origin master
 | `git reset [Target commit] and git push origin [branch name] -f` | Go last commit and delete after all commit |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git remote prune origin ` | update local branch from remote |
+| `git stash -u, git stash pop ` | stash untracked file and pop untracked file from another branch |
 | `git config --get remote.origin.fetch And git config --unset-all remote.origin.fetch And git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/*` | Git config for fetch remote branch  |
 
 
